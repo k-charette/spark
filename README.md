@@ -1,24 +1,35 @@
-# README
+## Spark
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Technologies
 
-Things you may want to cover:
+<ul>
+  <li>
+    Ruby 2.6.5
+  </li>
+  <li>
+    Rails 5.2.3
+  </li>
+</ul>
 
-* Ruby version
+## Run Locally
 
-* System dependencies
+Git Clone the repo and run both commands in your terminal: 
 
-* Configuration
+```
+bundle install
+yarn install
+```
 
-* Database creation
+After that create your database by: 
 
-* Database initialization
+```
+bundle exec rake db:create
+bundle exec rake db:migrate
+```
 
-* How to run the test suite
+Once that is finished start running the servers!
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails s
+yarn start
+```
