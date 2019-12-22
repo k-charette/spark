@@ -5,6 +5,8 @@ import App from '../react/components/App'
 import RedBox from 'redbox-react'
 
 require("bootstrap")
+require("@fortawesome/fontawesome-free")
+require("../includes/slides.js")
 
 document.addEventListener('DOMContentLoaded', () => {
   let reactElement = document.getElementById('app')
